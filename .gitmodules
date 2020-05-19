@@ -1,0 +1,3 @@
+[submodule "builder/eip1962"]
+	path = builder/eip1962
+	url = https://github.com/matter-labs/eip1962.git
