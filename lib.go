@@ -2,7 +2,7 @@ package main
 
 // #cgo CFLAGS: -g -Wall
 // #include "eip2537_header.h"
-// #cgo LDFLAGS: -L${SRCDIR}/libs -leth_pairings
+// #cgo LDFLAGS: -L${SRCDIR}/libs -leth_pairings -lm -ldl
 import "C"
 import "errors"
 
