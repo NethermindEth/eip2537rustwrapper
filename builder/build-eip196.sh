@@ -6,7 +6,7 @@ RUSTFLAGS="-C link-args=-lc" cargo build --release --no-default-features --featu
 
 FILE_LINUX=target/release/libeth_pairings.so
 FILE_OSX=target/release/libeth_pairings.dylib
-FILE_WINDOWS=target/release/libeth_pairings.dll
+FILE_WINDOWS=target/release/eth_pairings.dll
 if [ -f "$FILE_LINUX" ]; then
     cp $FILE_LINUX ../../libs/libeth_196.so
 elif [ -f "$FILE_OSX" ]; then
