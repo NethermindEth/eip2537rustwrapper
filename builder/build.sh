@@ -13,5 +13,5 @@ if [ -f "$FILE_LINUX" ]; then
 elif [ -f "$FILE_OSX" ]; then
     cp $FILE_OSX ../../libs/libeth_2537.dylib
 else
-    cp $FILE_WINDOWS ../../libs/eth2537.dll
+    cp $FILE_WINDOWS ../../libs/eth_2537.dll
 fi
